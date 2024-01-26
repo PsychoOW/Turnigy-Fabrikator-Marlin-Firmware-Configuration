@@ -26,3 +26,30 @@ I really apologize if i had to fork something or choose some kind of licence or 
 # Installation
 I use Arduino IDE for installing firmware on printer while it is connected with usb
 baudrate: 115200
+
+# Deutsch
+
+Hallo zusammen!
+
+Ich habe auf meinem gebraucht erhaltenen Hobbyking Fabrikator eine sehr alte Marlin-Firmware verwendet. Kürzlich habe ich diesen Drucker gebraucht und kostenlos bekommen. Wie dem auch sei, ich wollte die Firmware aktualisieren, damit der Drucker Sicherheitsfunktionen hat, die in der älteren Firmware wahrscheinlich fehlten. Hobbyking bietet leider nur begrenzten Support für ihre Produkte, da keine Firmware mehr auf den Produktseiten verfügbar ist (auch keine Archive), und ich habe sie auch direkt über den Live-Chat kontaktiert, aber sie konnten mir nichts zur Verfügung stellen. Genauer gesagt, es gab auch keine Konfigurationsdatei, die verwendet werden könnte, um eine neue Marlin-Firmware zu erstellen, wenn man weiß, was man tut. Ich gehöre nicht zu diesen Personen, also bin ich nicht in der Lage, meine neue Firmware von Grund auf zu erstellen, weil es einfach zu umfangreich und schwierig für mich ist. Leider bietet Marlin keine Beispielkonfigurationen für diesen Drucker in deren Rep wie für andere Modelle, also war ich ratlos.
+
+Glücklicherweise habe ich eine relativ aktuelle Marlin-Firmware gefunden, einschließlich der Konfigurationsdateien für diesen speziellen Drucker. Ich musste jedoch einige Änderungen vornehmen, da derjenige, der es in einem RC-Geräte-Foren hochgeladen hat (ein Dankeschön an ihn), einen automatischen Bettlevel-Sensor und andere Dinge konfiguriert hatte, den ich nicht besitze, und er hatte den Standardpositions-Laser ausgeschaltet, der normalerweise mit dem Drucker geliefert wird.
+
+Ich habe die von ihm hochgeladenen Firmware-Dateien verwendet und sie mit Chatgpt (GPT4) modifiziert, was überraschend gut funktioniert hat. Ich habe auch überprüft, dass die Einstellungen in Ordnung sind und Vergleiche vor und nach der Modifikation durchgeführt. Es war für mich eine echte Herausforderung, es zu schaffen, aber es musste getan werden, da der Drucker ohne Anpassung der Firmware aus dem RC-Forum nicht funktioniert hat, und das war die einzige Möglichkeit für mich, den Drucker wieder zum laufen zu bekommen. Ich habe überprüft, dass es einwandfrei mit der Originalversion vom Hobbyking Fabrikator funktioniert (so wie man es damals gekauft hat ohne Modifikationen).
+
+Da ich so viele Schwierigkeiten und Kopfschmerzen damit hatte, wollte ich die Firmware hier teilen, für Leute, die sich in einer ähnlichen Situation wie ich befinden und wenig technische Vorkenntnisse haben oder einfach nur die richtigen Werte für ihren Drucker benötigen.
+
+# Anerkennung
+
+Ein großes Dankeschön geht erneut an den Unbekannten im Internet namens "CrashingDutchman", der seine Firmware in diesem Forenbeitrag (Post 1992) geteilt hat. Hier ist der Link dazu:
+https://www.rcgroups.com/forums/showthread.php?2392899-HobbyKings-%28Turnigy%29-Fabrikator-3D-Printer-thoughts/page80
+
+Und natürlich ein herzliches Dankeschön an die Entwickler der Marlin-Firmware!
+
+Es tut mir wirklich leid, wenn ich etwas forken oder eine bestimmte Lizenz wählen musste oder in diese Richtung gehen musste. Ich bin kein Entwickler und habe keine Ahnung von solchen Dingen. Alles, was ich tun möchte, ist das bereitzustellen, womit ich sehr hart gekämpft habe, damit niemand mit diesen Schwierigkeiten zu kämpfen hat und eine neue Firmware mit guten Sicherheitsfunktionen haben kann!
+
+# Installation
+
+Ich verwende die Arduino-IDE, um die Firmware auf den Drucker zu installieren, während er über USB verbunden ist.
+Baudrate: 115200
+Falls ihr das Menü vom Drucker gern auf deutsch hättet dann müsst ihr es in einer der beiden Konfigurationsdateien von "en" auf "de" ändern bevor ihr es kompiliert. das ist die zeile 1691 in Configuration.h (#define LCD_LANGUAGE en). Hier ist es gerade standardmäßig auf en gesetzt wenn ihr es runter ladet.
