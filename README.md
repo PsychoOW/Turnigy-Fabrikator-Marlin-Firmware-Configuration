@@ -1,6 +1,8 @@
 # Turnigy-Fabrikator-Marlin-Firmware-Configuration
-Marlin 2.0.7.2 with Configuration for Hobbyking Turnigy Fabrikator 3D Printer
-Scroll down for description! Bitte runterscrollen für Beschreibung!
+# Marlin 2.0.7.2 with Configuration for Hobbyking Turnigy Fabrikator 3D Printer
+
+# Scroll down for description! 
+# Bitte runterscrollen für Beschreibung!
 
 ![Image of the firmware on my printer](https://github.com/PsychoOW/Turnigy-Fabrikator-Marlin-Firmware-Configuration/blob/dceccebcfb65cfd73bf5b9d5f1598f8bca9b0bf3/20240126_224422.jpg)
 
