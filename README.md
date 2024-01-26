@@ -1,6 +1,7 @@
 # Turnigy-Fabrikator-Marlin-Firmware-Configuration
 Marlin 2.0.7.2 with Configuration for Hobbyking Turnigy Fabrikator 3D Printer
 
+![Image of the firmware on my printer](https://github.com/PsychoOW/Turnigy-Fabrikator-Marlin-Firmware-Configuration/blob/dceccebcfb65cfd73bf5b9d5f1598f8bca9b0bf3/20240126_224422.jpg)
 
 Hello everyone!
 
@@ -26,6 +27,8 @@ I really apologize if i had to fork something or choose some kind of licence or 
 # Installation
 I use Arduino IDE for installing firmware on printer while it is connected with usb
 baudrate: 115200
+
+Happy printing! :)
 
 # Deutsch
 
@@ -53,3 +56,5 @@ Es tut mir wirklich leid, wenn ich etwas forken oder eine bestimmte Lizenz wähl
 Ich verwende die Arduino-IDE, um die Firmware auf den Drucker zu installieren, während er über USB verbunden ist.
 Baudrate: 115200
 Falls ihr das Menü vom Drucker gern auf deutsch hättet dann müsst ihr es in einer der beiden Konfigurationsdateien von "en" auf "de" ändern bevor ihr es kompiliert. das ist die zeile 1691 in Configuration.h (#define LCD_LANGUAGE en). Hier ist es gerade standardmäßig auf en gesetzt wenn ihr es runter ladet.
+
+Viel Spaß beim drucken! :)
